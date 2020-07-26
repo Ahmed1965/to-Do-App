@@ -1,0 +1,57 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    min-width: 300px;
+    margin: 0;
+ 
+    
+}
+h1{
+    text-align: center;
+    background-color: #cecece
+
+}
+.container{
+  text-align: center;  
+  
+    
+    
+}
+input{
+    width: 200px;
+    padding: 10px;
+    background-color: turquoise;
+    
+
+    
+}
+button{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px;
+}
+button:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+ul li{
+    position: relative;
+    background-color: #cecece;
+    list-style-type: none;
+    cursor: pointer;padding: 10px 6px 10px 30px;
+    transition: 0.3s;
+    
+}
+li:nth-child(odd){
+    background-color: tomato;
+}
